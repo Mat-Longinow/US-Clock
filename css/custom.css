@@ -75,7 +75,11 @@ html a:hover {
 }
 
 .white-font {
-    color: #fff
+    color: #fff;
+}
+
+.light-gray-font {
+	color: #bfbfbf;
 }
 
 .right {
@@ -130,7 +134,7 @@ nav li {
 }
 
 nav li a {
-	color: #bfbfbf;
+	color: #bfbfbf;;
 	font-size: 20px;
 }
 
@@ -183,10 +187,7 @@ main h2 {
 
 footer {
 	padding-top: 170px;
-}
-
-footer .container {
-	padding-bottom: 0;
+	color: #bfbfbf;
 }
 
 #sitemap-footer {
