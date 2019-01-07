@@ -7,3 +7,5 @@ This app was built with the following technologies:
 * CSS
 * Bootstrap
 * JavaScript
+
+You can see this app live on my website: [www.myprogrammingjourney.com]
