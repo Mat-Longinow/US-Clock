@@ -1,0 +1,217 @@
+/*
+----- Custom.css -----
+Use this style sheet for general stylyzing
+*/
+
+/*----- Fonts -----*/
+
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+
+/*----- General -----*/
+
+html body {
+	height: 100%;
+    font-family: 'Arvo', serif;
+}
+
+html a {
+	color: #dd352e;
+}
+
+html a:hover {
+	color: #a31c16;
+}
+
+.section-title {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.page-title {
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.section-header-text {
+	font-size: 16px;
+}
+
+.title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.red-title {
+	border-bottom: 1px solid #dd352e;
+	padding-bottom: 15px;
+	width: 30%;
+}
+
+.container {
+	padding-bottom: 40px;
+}
+
+.row {
+	margin-bottom: 20px;
+}
+
+.off-white {
+	background-color: #f5f5f5;
+}
+
+.light-gray {
+	background-color: #bfbfbf;
+}
+
+.dark-gray {
+	background-color: #262624;
+	color: #fff;
+}
+
+.red-font {
+	color: #dd352e;
+}
+
+.white-font {
+    color: #fff
+}
+
+.right {
+	float: right;
+}
+
+
+/* These are for styling the sections where
+the question is featured on home and contact page
+no-float is specifically to make the column 100%
+height of the other column*/
+
+.question-left {
+	border-right: 2px solid #000;
+	vertical-align: middle;
+}
+
+.question-right {
+	border-left: 2px solid #000;
+	vertical-align: middle;
+}
+
+.no-float {
+	display: table-cell;
+	float: none;
+}
+
+/*----- Header -----*/
+
+.title, .sub-title {
+	color: #fff;
+}
+
+.page-title {
+	font-size: 55px;
+}
+
+/*----- Nav -----*/
+
+html nav {
+    font-weight: bold;
+}
+
+html nav ul {
+    padding: 0px;
+}
+
+nav li {
+    list-style: none;
+	display: inline;
+	padding: 25px;
+}
+
+nav li a {
+	color: #bfbfbf;
+	font-size: 20px;
+}
+
+nav li a:hover {
+	text-decoration: none;
+	font-size: 22px;
+}
+
+nav li a.active {
+	color: #a31c16;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+html body #navbar .navbar-nav > li > a {
+	border-right: 1px solid #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+	color: #000;
+}
+
+html body #navbar .navbar-nav > li:last-child > a {
+	border-right: none;
+}
+
+html .navbar-default .navbar-nav > .active>a, html .navbar-default .navbar-nav > .active>a:hover {
+	background-color: transparent;
+}
+
+/*----- Main ----- */
+
+main.row {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+main h2 {
+	font-size: 150px;
+	display: inline;
+	padding: 20px;
+}
+
+#colon {
+	vertical-align: 10%;
+}
+
+/*----- Footer ----- */
+
+footer {
+	padding-top: 170px;
+}
+
+footer .container {
+	padding-bottom: 0;
+}
+
+#sitemap-footer {
+	position: absolute;
+	right: 7%;
+	text-align: right;
+}
+
+
+/*-------------------------
+    Mountain Time Zone
+-------------------------*/
+
+.pst {
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../images/pacific.jpg) center/cover;
+}
+
+.mst {
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../images/mountain.jpg) center/cover;
+}
+
+.cst {
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../images/central.jpg) center/cover;
+}
+
+.est {
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../images/eastern.jpg) center/cover;
+}
